@@ -1,0 +1,27 @@
+/* ****************more css ********************************* */
+
+a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+    background-color: #007bff;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  li {
+    margin-left: 25px;
+  }
+  
+  h2:hover,
+  ul:hover {
+    background-color: white;
+    /* color: blue; */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

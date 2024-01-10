@@ -1,0 +1,289 @@
+body {
+  /* ------------------------- */
+  /* color:#141213; */
+
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #86a3e7, #72abea, #5fb2e9, #41b9e4, #29beda, #29c2cd, #3fc5bc); */
+  /* background: linear-gradient(to right, #239cec, #86e9fb, #C6FFDD); */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  /* margin:8px; */
+  /* --------------------------------- */
+  color: #333;
+  /* background: linear-gradient(
+    to right top,
+    #3498db,
+    #2ecc71,
+    #1abc9c,
+    #f39c12,
+    #e74c3c,
+    #9b59b6,
+    #34495e,
+    #16a085,
+    #2980b9,
+    #d35400,
+    #3498db,
+    #27ae60
+  ); */
+  /* background: linear-gradient(
+  to bottom right,
+  #ff6347,
+  #ffd700,
+  #98fb98
+); */
+  /* background: radial-gradient(circle at top left, #ffcccb, #66cdaa, #dda0dd); */
+  /* background: linear-gradient(
+  to right,
+  #2c3e50 0%,
+  #3498db 50%,
+  #e74c3c 100%
+); */
+  /* background: linear-gradient(
+    to bottom,
+    rgba(255, 165, 0, 0.7),
+    rgba(255, 69, 0, 0.9),
+    rgba(255, 0, 0, 1)
+  ); */
+  /* background: conic-gradient(
+    from 45deg at 50% 50%,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  ); */
+  background: linear-gradient(
+    to right bottom,
+    #ff4e50,
+    #fc913a,
+    #f9d423,
+    #a8e063,
+    #37b7f3,
+    #21c5f8,
+    #fdbb2d,
+    #fc913a,
+    #ff4e50
+  );
+
+  /* ---------------------------------- */
+  font-family: "Lato", sans-serif;
+  margin: 8px;
+  padding: 0;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  margin-right: 20px;
+  border-top: 1px solid #eee;
+  height: 3px;
+  opacity: 0.5;
+}
+/*  -------------------------------------*/
+.profile {
+  border-radius: 50%; /* This creates a circular shape */
+  width: 300px; /*Adjust the width as needed */
+  height: 300px; /*Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+/* .profile {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 7%;
+  padding-top: 2%;
+} */
+
+h1 {
+  /* color:#8b1313; */
+  font-family: "Oswald", sans-serif;
+  font-size: 300%;
+  font-style: normal;
+  /* text-shadow: 3px 3px 10px; */
+}
+h2 {
+  /* color:#8b1313; */
+  /* font-family: 'Nunito Sans', sans-serif; */
+  /* font-family: 'Roboto Slab', serif;
+font-family: 'Syne Mono', monospace; */
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: bold;
+  /* text-shadow: 3px 3px 10px; */
+  text-decoration: underline;
+}
+input {
+  /* background-color:#DBE8D4 ; */
+  border: 1px solid;
+  box-shadow: 0 0 10px;
+  font-size: 30px;
+  /* text-shadow: 3px 3px 7px; */
+}
+textarea {
+  /* background-color#DBE8D4 ; */
+  border: 1px solid;
+  /* box-shadow: 0 0 10px; */
+}
+p {
+  font-size: 30px;
+  font-family: "Ubuntu Mono", monospace;
+  /* text-shadow: 3px 3px 7px; */
+}
+li {
+  font-size: 30px;
+  font-family: "Ubuntu Mono", monospace;
+  /* text-shadow: 3px 3px 7px; */
+}
+td {
+  font-size: 30px;
+  /* text-shadow: 3px 3px 7px; */
+}
+
+th {
+  font-size: 30px;
+  /* text-shadow: 3px 3px 7px; */
+}
+a {
+  font-size: 30px;
+  /* text-shadow: 3px 3px 7px; */
+}
+/* class tag selector  ---*/
+
+/* .ex1{
+  margin-left: 5%;
+}
+.ex2{
+margin-left: 5%;
+} */
+
+label {
+  font-size: 30px;
+  /* text-shadow: 3px 3px 7px; */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.7rem;
+  /* font-weight:bold ; */
+}
+
+.navbar-nav > li {
+  /* margin-left:5%; */
+  margin-right: 3%;
+  font-size: 5%;
+}
+
+.nav-link {
+  font-size: 2.5rem;
+  font-family: "Montserrat-Light";
+  font-weight: bold;
+  margin-left: 15%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.dropdown-menu > a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  font-size: 1.5rem;
+  font-family: "Montserrat-Bold";
+}
+
+.dropdown-item {
+  font-weight: bold;
+}
+.dropdown-menu > li > a:hover {
+  background-color: rgba(50, 26, 138, 0.1);
+}
+.dropdown-divider {
+  border-color: black;
+
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: rgb(144, 127, 241, 0.2);
+}
+
+.smallhome {
+  margin-right: 0;
+  width: 5%;
+}
+
+.c1 {
+  margin-top: 0.7%;
+  margin-right: 0.5%;
+}
+
+.row {
+  --bs-gutter-x: 0.5rem;
+}
+
+.btn-info {
+  color: #dee2e6;
+  background-color: #030d10;
+  border-color: rgb(65, 70, 75, 0.7);
+}
+
+a {
+  color: #141213;
+}
+.total-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-container {
+  flex-grow: 0.2;
+}
+
+.except-nav {
+  flex-grow: 1;
+}
+
+/* ------------------------------------------------------- */
+/* Your common styles here */
+
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  /* Your desktop styles here */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  /* Your mobile styles here */
+}
+
+
+/************************* education css ***************************/
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.education-table th,
+.education-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.education-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.education-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.education-table tbody tr:hover {
+  background-color: #ddd;
+}

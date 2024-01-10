@@ -1,0 +1,22 @@
+/* ***************** Contact Css ***********************************/
+
+.container {
+    margin-top: 60px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+  }
+  
+  form {
+    max-width: 120%;
+    margin: 0 auto;
+  }
